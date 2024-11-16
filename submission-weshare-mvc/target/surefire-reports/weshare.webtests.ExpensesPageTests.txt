@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: weshare.webtests.ExpensesPageTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 2, Time elapsed: 1.824 s <<< FAILURE! - in weshare.webtests.ExpensesPageTests
+noExpenses  Time elapsed: 1.792 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 129.0.6668.70 with binary path /usr/bin/google-chrome
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'pop-os', ip: '10.0.2.15', os.name: 'Linux', os.arch: 'amd64', os.version: '6.9.3-76060903-generic', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --headless, --disable-gpu, --start-maximized, --start-fullscreen], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--no-sandbox, --headless, --disable-gpu, --start-maximized, --start-fullscreen], extensions: []}}}]
+
